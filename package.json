@@ -22,7 +22,7 @@
     "semanticdiff": "dist/main.js"
   },
   "dependencies": {
-    "@tdurieux/dinghy": "^1.0.0",
+    "@tdurieux/dinghy": "^1.0.2",
     "murmurhash3js": "^3.0.1",
     "yargs": "^17.7.2"
   },
