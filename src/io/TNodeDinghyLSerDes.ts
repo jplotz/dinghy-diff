@@ -3,7 +3,7 @@ import ISerDesOptions from './options/ISerDesOptions';
 import { Nullable } from '../Types';
 import TNode from '../tree/TNode';
 import TNodeBuilder from '../tree/TNodeBuilder';
-import { dockerfileParser, coreTypes, shellParser } from '@tdurieux/dinghy';
+import { dockerfileParser, AbstractNode, shellParser } from '@tdurieux/dinghy';
 import GrammarNode from '../grammar/GrammarNode';
 import NodeType from '../grammar/NodeType';
 import { AbstractNode } from '@tdurieux/dinghy/build/core/core-types';
@@ -16,7 +16,7 @@ export default abstract class TNodeDinghyLSerDes<T> extends SerDes<TNode<T>> {
   protected abstract getData(
     type: string,
     text: Nullable<string>,
-    ast: coreTypes.AbstractNode<any>
+    ast: AbstractNode<any>
   ): T;
 
   public override buildString(node: TNode<T>): string {
@@ -24,7 +24,7 @@ export default abstract class TNodeDinghyLSerDes<T> extends SerDes<TNode<T>> {
     return jsonString;
   }
 
-  public parseAST(ast: coreTypes.AbstractNode<any>, includeChildren = true): TNode<T> {
+  public parseAST(ast: AbstractNode<any>, includeChildren = true): TNode<T> {
     const type = ast.type;
     // children
     const children = [];

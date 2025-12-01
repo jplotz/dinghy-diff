@@ -1,13 +1,13 @@
 import IData from './IData';
 import { Nullable } from '../Types';
 import ICopyable from './ICopyable';
-import { coreTypes } from '@tdurieux/dinghy';
+import { AbstractNode } from '@tdurieux/dinghy';
 
 export default class ASTData implements IData, ICopyable<ASTData> {
   constructor(
     private _type: string,
     private _text: Nullable<string>,
-    public node: coreTypes.AbstractNode<any>
+    public node: AbstractNode<any>
   ) {}
 
   equals(other: any): boolean {
