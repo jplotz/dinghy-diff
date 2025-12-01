@@ -3,7 +3,7 @@ import ISerDesOptions from './options/ISerDesOptions';
 import { Nullable } from '../Types';
 import TNode from '../tree/TNode';
 import TNodeBuilder from '../tree/TNodeBuilder';
-import { dockerfileParser, AbstractNode, shellParser } from '@tdurieux/dinghy';
+import { dockerfileParser, shellParser } from '@tdurieux/dinghy';
 import GrammarNode from '../grammar/GrammarNode';
 import NodeType from '../grammar/NodeType';
 import { AbstractNode } from '@tdurieux/dinghy/build/core/core-types';
