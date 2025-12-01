@@ -1,7 +1,6 @@
 # typescript
 /out/
 /build/
-/dist/
 
 # yarn
 node_modules/

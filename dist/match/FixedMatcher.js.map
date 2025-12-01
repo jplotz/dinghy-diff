@@ -1,0 +1,1 @@
+{"version":3,"file":"FixedMatcher.js","sourceRoot":"","sources":["../../src/match/FixedMatcher.ts"],"names":[],"mappings":";;;AAIA,MAAa,YAAY;IACvB,KAAK,CAAC,OAAiB,EAAE,OAAiB,EAAE,UAA0B;QAEpE,IAAI,CAAC,OAAO,CAAC,WAAW,CAAC,OAAO,CAAC,EAAE,CAAC;YAClC,OAAO,CAAC,OAAO,CAAC,OAAO,CAAC,CAAC;QAC3B,CAAC;IACH,CAAC;CACF;AAPD,oCAOC"}

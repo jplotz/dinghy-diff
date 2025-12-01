@@ -1,0 +1,1 @@
+{"version":3,"file":"UnimplementedError.js","sourceRoot":"","sources":["../../src/error/UnimplementedError.ts"],"names":[],"mappings":";;AAAA,MAAqB,kBAAmB,SAAQ,KAAK;IACnD;QACE,KAAK,EAAE,CAAC;QACR,IAAI,CAAC,OAAO,GAAG,iBAAiB,CAAC;QACjC,IAAI,CAAC,IAAI,GAAG,oBAAoB,CAAC;IACnC,CAAC;CACF;AAND,qCAMC"}
